@@ -1,0 +1,58 @@
+/* blog.css - Educational therapies section */
+.education {
+  margin: 60px auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.edu-card {
+  background: #f8f8f8;
+  border-left: 4px solid #2D6A4F;
+  border-radius: 10px;
+  padding: 28px 24px;
+  transition: box-shadow 0.3s, background 0.3s;
+}
+
+.edu-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.edu-card h3 {
+  color: #1a3d2b;
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+
+.edu-card p {
+  color: #555;
+  line-height: 1.75;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Style when a card is expanded */
+.edu-card-open {
+  background: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-left-color: #C8A870;
+}
+
+/* ── Tablet ── */
+@media (max-width: 900px) {
+  .education {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .education {
+    margin: 40px auto;
+    gap: 16px;
+  }
+  .edu-card {
+    padding: 22px 18px;
+  }
+}

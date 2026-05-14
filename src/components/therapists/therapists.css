@@ -1,0 +1,254 @@
+/* therapists.css */
+.therapists {
+  margin: 60px auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.therapist-card {
+  flex-basis: calc(33% - 18px);
+  min-width: 220px;
+  text-align: center;
+  padding: 30px 24px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.therapist-card:hover {
+  border-color: #2D6A4F;
+  transform: translateY(-5px);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #2D6A4F, #1a3d2b);
+  border-radius: 50%;
+  margin: 0 auto 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.therapist-card h3 {
+  color: #1a3d2b;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+
+.role {
+  color: #2D6A4F;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.exp-text {
+  color: #777;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.speciality-text {
+  color: #999;
+  font-size: 13px;
+  margin-bottom: 18px;
+}
+
+/* ── Modal overlay (shared) ── */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeOverlay 0.2s ease;
+}
+
+@keyframes fadeOverlay {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.booking-modal {
+  background: white;
+  border-radius: 16px;
+  max-width: 520px;
+  width: 100%;
+  padding: 32px;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp 0.25s ease;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  background: #eee;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.booking-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.booking-avatar {
+  width: 54px;
+  height: 54px;
+  background: linear-gradient(135deg, #2D6A4F, #1a3d2b);
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.booking-header h3 {
+  color: #1a3d2b;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+
+.booking-header p {
+  color: #777;
+  font-size: 13px;
+}
+
+.booking-bio {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.65;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Form inputs */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  border-color: #2D6A4F;
+}
+
+.form-row {
+  display: flex;
+  gap: 12px;
+}
+
+.booking-error {
+  color: #e05252;
+  font-size: 13px;
+  background: #fff0f0;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 3px solid #e05252;
+}
+
+/* WhatsApp submit button */
+.whatsapp-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.2s;
+}
+
+.whatsapp-submit-btn:hover { background: #1ebe5d; }
+.wa-icon-sm { width: 20px; height: 20px; }
+
+.wa-note {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* ── Tablet ── */
+@media (max-width: 1024px) {
+  .therapist-card {
+    flex-basis: calc(50% - 14px);
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .therapists {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+  }
+  .therapist-card {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  .booking-modal {
+    padding: 24px 18px;
+  }
+}

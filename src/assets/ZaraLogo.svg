@@ -1,0 +1,24 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 690 120" role="img" style="">
+  <ns0:title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Zara Therapy Clinic</ns0:title>
+  <ns0:g transform="translate(269,55)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+    
+    <ns0:path d="M 0,-35 C 18,-10 18,10 0,35 C -18,10 -18,-10 0,-35 Z" fill="white" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto" />
+
+    
+    <ns0:path d="M 0,-33 L 0,33&#10;         M 0,-27 Q -3,-24 -7,-22   M 0,-27 Q 3,-24 7,-22&#10;         M 0,-18 Q -6,-14 -13,-11  M 0,-18 Q 6,-14 13,-11&#10;         M 0,-8  Q -8,-4 -16,-1    M 0,-8  Q 8,-4 16,-1&#10;         M 0,2   Q -8,6  -16,9     M 0,2   Q 8,6  16,9&#10;         M 0,12  Q -6,15 -13,18    M 0,12  Q 6,15 13,18&#10;         M 0,22  Q -3,24 -7,27     M 0,22  Q 3,24 7,27" fill="none" stroke="rgba(26,61,43,0.28)" stroke-width="0.75" stroke-linecap="round" style="fill:none;stroke:rgba(26, 61, 43, 0.28);color:rgb(255, 255, 255);stroke-width:0.75px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto" />
+
+    
+    <ns0:text x="22" y="7" font-family="Georgia,'Palatino Linotype',serif" font-size="58" font-weight="700" fill="white" textLength="138" lengthAdjust="spacing" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, &quot;Palatino Linotype&quot;, serif;font-size:58px;font-weight:700;text-anchor:start;dominant-baseline:auto">ZARA</ns0:text>
+
+    
+    <ns0:text x="22" y="33" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="300" fill="rgba(255,255,255,0.76)" textLength="64" lengthAdjust="spacing" style="fill:rgba(255, 255, 255, 0.76);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:13px;font-weight:300;text-anchor:start;dominant-baseline:auto">THERAPY</ns0:text>
+
+    
+    <ns0:circle cx="91" cy="27" r="1.8" fill="rgba(255,255,255,0.76)" style="fill:rgba(255, 255, 255, 0.76);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto" />
+
+    
+    <ns0:text x="96" y="33" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="300" fill="rgba(255,255,255,0.76)" textLength="64" lengthAdjust="spacing" style="fill:rgba(255, 255, 255, 0.76);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;font-size:13px;font-weight:300;text-anchor:start;dominant-baseline:auto">CLINIC</ns0:text>
+
+  </ns0:g>
+</ns0:svg>

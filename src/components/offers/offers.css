@@ -1,0 +1,88 @@
+/* offers.css */
+.offers {
+  margin: 60px auto;
+  width: 90%;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.offer-card {
+  background: linear-gradient(135deg, #f0faf5, #e6f4ec);
+  border: 1px solid #b7dfca;
+  border-radius: 14px;
+  padding: 30px 28px;
+  flex-basis: calc(33% - 20px);
+  min-width: 240px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.offer-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(45, 106, 79, 0.15);
+}
+
+.offer-card h3 {
+  color: #1a3d2b;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.offer-card p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.coupon-code {
+  background: white;
+  border: 2px dashed #2D6A4F;
+  border-radius: 8px;
+  padding: 10px 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #444;
+  letter-spacing: 0.5px;
+}
+
+.coupon-code span {
+  font-weight: 700;
+  color: #2D6A4F;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+.offer-expires {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 18px;
+}
+
+.btn-claimed {
+  background: #c8f0d8 !important;
+  color: #1a3d2b !important;
+  font-weight: 700;
+}
+
+/* ── Tablet ── */
+@media (max-width: 1024px) {
+  .offer-card {
+    flex-basis: calc(50% - 14px);
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  .offers {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+  }
+  .offer-card {
+    flex-basis: auto;
+    width: 100%;
+  }
+}
